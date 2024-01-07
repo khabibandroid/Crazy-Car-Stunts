@@ -3,7 +3,7 @@
 
 # Ignore Visual Studio files
 *.suo
-*.lock
+
 
 
 # Ignore Unity files
