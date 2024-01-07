@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: d943a4c6d31c12345af362bbde4cc741
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Box_01
+    100002: Box_02
+    100004: Box_03
+    100006: Box_04
+    100008: Box_05
+    100010: Box_06
+    100012: //RootNode
+    100014: Horn_01
+    100016: Horn_02
+    100018: Horn_03
+    100020: Horn_04
+    100022: Horn_05
+    100024: Horn_06
+    100026: Rotate_Cube_01
+    100028: Rotate_Cube_02
+    100030: Rotate_Cube_03
+    100032: Rotate_Cube_04
+    400000: Box_01
+    400002: Box_02
+    400004: Box_03
+    400006: Box_04
+    400008: Box_05
+    400010: Box_06
+    400012: //RootNode
+    400014: Horn_01
+    400016: Horn_02
+    400018: Horn_03
+    400020: Horn_04
+    400022: Horn_05
+    400024: Horn_06
+    400026: Rotate_Cube_01
+    400028: Rotate_Cube_02
+    400030: Rotate_Cube_03
+    400032: Rotate_Cube_04
+    2300000: Box_01
+    2300002: Box_02
+    2300004: Box_03
+    2300006: Box_04
+    2300008: Box_05
+    2300010: Box_06
+    2300012: Horn_01
+    2300014: Horn_02
+    2300016: Horn_03
+    2300018: Horn_04
+    2300020: Horn_05
+    2300022: Horn_06
+    2300024: Rotate_Cube_01
+    2300026: Rotate_Cube_02
+    2300028: Rotate_Cube_03
+    2300030: Rotate_Cube_04
+    3300000: Box_01
+    3300002: Box_02
+    3300004: Box_03
+    3300006: Box_04
+    3300008: Box_05
+    3300010: Box_06
+    3300012: Horn_01
+    3300014: Horn_02
+    3300016: Horn_03
+    3300018: Horn_04
+    3300020: Horn_05
+    3300022: Horn_06
+    3300024: Rotate_Cube_01
+    3300026: Rotate_Cube_02
+    3300028: Rotate_Cube_03
+    3300030: Rotate_Cube_04
+    4300000: Horn_06
+    4300002: Horn_01
+    4300004: Horn_02
+    4300006: Horn_03
+    4300008: Horn_04
+    4300010: Horn_05
+    4300012: Box_06
+    4300014: Box_05
+    4300016: Box_04
+    4300018: Box_03
+    4300020: Box_02
+    4300022: Box_01
+    4300024: Rotate_Cube_03
+    4300026: Rotate_Cube_01
+    4300028: Rotate_Cube_02
+    4300030: Rotate_Cube_04
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

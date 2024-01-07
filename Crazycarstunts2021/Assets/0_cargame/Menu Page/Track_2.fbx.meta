@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: abeca4cbb3aa1ac4aa52f39c2e76c57b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: HIll_1
+    100002: HIll_2
+    100004: HIll_3
+    100006: HIll_4
+    100008: HIll_5
+    100010: HIll_6
+    100012: HIll_7
+    100014: HIll_8
+    100016: HIll_9
+    100018: HIlls
+    100020: Middle_Ground
+    100022: Racing_Track
+    100024: //RootNode
+    400000: HIll_1
+    400002: HIll_2
+    400004: HIll_3
+    400006: HIll_4
+    400008: HIll_5
+    400010: HIll_6
+    400012: HIll_7
+    400014: HIll_8
+    400016: HIll_9
+    400018: HIlls
+    400020: Middle_Ground
+    400022: Racing_Track
+    400024: //RootNode
+    2100000: Ground
+    2100002: Track1_1
+    2100004: Hill
+    2300000: HIll_1
+    2300002: HIll_2
+    2300004: HIll_3
+    2300006: HIll_4
+    2300008: HIll_5
+    2300010: HIll_6
+    2300012: HIll_7
+    2300014: HIll_8
+    2300016: HIll_9
+    2300018: Middle_Ground
+    2300020: Racing_Track
+    3300000: HIll_1
+    3300002: HIll_2
+    3300004: HIll_3
+    3300006: HIll_4
+    3300008: HIll_5
+    3300010: HIll_6
+    3300012: HIll_7
+    3300014: HIll_8
+    3300016: HIll_9
+    3300018: Middle_Ground
+    3300020: Racing_Track
+    4300000: Middle_Ground
+    4300002: Racing_Track
+    4300004: HIll_1
+    4300006: HIll_2
+    4300008: HIll_3
+    4300010: HIll_4
+    4300012: HIll_5
+    4300014: HIll_6
+    4300016: HIll_7
+    4300018: HIll_8
+    4300020: HIll_9
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

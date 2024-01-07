@@ -1,0 +1,232 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit ProfessionalWorkstation' Language: 'en' Physical Memory: 32637 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\unity new version\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/BACKUP/Crazycarstunts2021
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58814
+Successfully changed project path to: E:/BACKUP/Crazycarstunts2021
+E:/BACKUP/Crazycarstunts2021
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 1032.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path D:/unity new version/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/BACKUP/Crazycarstunts2021/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P1000 (ID=0x1cb1)
+    Vendor:   
+    VRAM:     4019 MB
+    Driver:   26.21.14.4128
+Initialize mono
+Mono path[0] = 'D:/unity new version/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity new version/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity new version/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity new version/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity new version/2020.3.25f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/unity new version/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.173624 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 70.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (774ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (504ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (127ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 1.491635 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEditor.Purchasing.GooglePlayProductCatalogExporter:ProductTypeString due to: Could not load file or assembly 'UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Stores.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Editor.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2020.3.25f1]
+System.MethodAccessException: Method `UnityEngine.Purchasing.VersionCheck.LessThan(string,string)' is inaccessible from method `UnityEditor.Purchasing.FacebookBuildControl.SetupFacebookConfig()'
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_throw_method_access(intptr,intptr)
+  at UnityEditor.Purchasing.FacebookBuildControl.SetupFacebookConfig () [0x00006] in <2d7779cb8f3840989e79e2ad6995b2c7>:0 
+  at UnityEditor.Purchasing.FacebookBuildControl..cctor () [0x00064] in <2d7779cb8f3840989e79e2ad6995b2c7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1177ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1007ms)
+			LoadAssemblies (326ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.0 MB.
+System memory in use after: 106.2 MB.
+
+Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 2847.
+Total: 2.746700 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.084800 ms MarkObjects: 2.408000 ms  DeleteObjects: 0.064700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Hill_Bump 1.png
+  artifactKey: Guid(37172273475cf804cb3b90d964b88d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hill_Bump 1.png using Guid(37172273475cf804cb3b90d964b88d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ac261e53952a543bb326f69217b73c') in 0.546302 seconds 
+  Import took 0.549525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/jump_platform.prefab
+  artifactKey: Guid(4f3b3a829dada1c4181e6817ddc30536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jump_platform.prefab using Guid(4f3b3a829dada1c4181e6817ddc30536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281948faa9cbdb0956ba221d9be06e4a') in 0.229648 seconds 
+  Import took 0.233275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(901bf6fe29a9c9c48b6c76d821cc5490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(901bf6fe29a9c9c48b6c76d821cc5490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63735007c3dd3a087c4fcbabdddcb2c') in 0.108201 seconds 
+  Import took 0.111383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(d2b264a3929039b47a4c56411a87cf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(d2b264a3929039b47a4c56411a87cf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e778cfc608c629ed04ccf7cb5330f2') in 0.118411 seconds 
+  Import took 0.121425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/light.png
+  artifactKey: Guid(f45de697f84fd89499c9c41d5427244f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/light.png using Guid(f45de697f84fd89499c9c41d5427244f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f270e94e451c437b4263d6a96a3f2082') in 0.059631 seconds 
+  Import took 0.062662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(c57ce6ad915af6a4cb390a14d9137803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(c57ce6ad915af6a4cb390a14d9137803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497626cea5ec6396d937b0482d28e867') in 0.100524 seconds 
+  Import took 0.103517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Mortel_Logo_3.jpg
+  artifactKey: Guid(0d1dab566eca97e4a802d003ff3aeec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mortel_Logo_3.jpg using Guid(0d1dab566eca97e4a802d003ff3aeec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc7f3fbbb03be3f25cb7da4a702f6d8') in 0.024479 seconds 
+  Import took 0.027456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Icon_1.png
+  artifactKey: Guid(7b7342968dc62ec40ae79e370055c215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icon_1.png using Guid(7b7342968dc62ec40ae79e370055c215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5cf677717b1906a02e3cc10398f1d2') in 0.056064 seconds 
+  Import took 0.058992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Hill_Bump.png
+  artifactKey: Guid(b0885105ffda26c4e8c7d84a23a01497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hill_Bump.png using Guid(b0885105ffda26c4e8c7d84a23a01497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b106bbb85e4259b21ba90a7c72eec3') in 0.061199 seconds 
+  Import took 0.064233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Desert.prefab
+  artifactKey: Guid(75efdd914347ce6408bdb21f53daff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert.prefab using Guid(75efdd914347ce6408bdb21f53daff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bde9379603e78da624db6f99d9213d1') in 1.310530 seconds 
+  Import took 1.315707 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

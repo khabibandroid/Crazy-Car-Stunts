@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: a808855dbaec56341ae3b2d4352dd1fc
+labels:
+- Desert
+- Sand
+- Yellow
+- PBS
+- PBR
+- Stone
+- Sandstone
+timeCreated: 1426418944
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Boulder1
+    100002: Boulder2
+    100004: Boulder3
+    100006: //RootNode
+    100008: Pillar1
+    100010: Pillar2
+    100012: Pillar3
+    100014: Pillar4
+    100016: Rock1
+    100018: Rock2
+    100020: Slab1
+    100022: Slab2
+    400000: Boulder1
+    400002: Boulder2
+    400004: Boulder3
+    400006: //RootNode
+    400008: Pillar1
+    400010: Pillar2
+    400012: Pillar3
+    400014: Pillar4
+    400016: Rock1
+    400018: Rock2
+    400020: Slab1
+    400022: Slab2
+    2300000: Boulder1
+    2300002: Boulder2
+    2300004: Boulder3
+    2300006: Pillar1
+    2300008: Pillar2
+    2300010: Pillar3
+    2300012: Pillar4
+    2300014: Rock1
+    2300016: Rock2
+    2300018: Slab1
+    2300020: Slab2
+    3300000: Boulder1
+    3300002: Boulder2
+    3300004: Boulder3
+    3300006: Pillar1
+    3300008: Pillar2
+    3300010: Pillar3
+    3300012: Pillar4
+    3300014: Rock1
+    3300016: Rock2
+    3300018: Slab1
+    3300020: Slab2
+    4300000: Boulder1
+    4300002: Boulder2
+    4300004: Rock1
+    4300006: Rock2
+    4300008: Boulder3
+    4300010: Pillar1
+    4300012: Pillar2
+    4300014: Pillar3
+    4300016: Pillar4
+    4300018: Slab1
+    4300020: Slab2
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 120
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

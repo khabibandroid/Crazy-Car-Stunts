@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C0FF5601-AB96-24AD-4293-09FB0AD7F21F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:/unity 5.5.2/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:/unity 5.5.2/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>E:/unity 5.5.2/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>E:/unity 5.5.2/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>E:/unity 5.5.2/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>E:/unity 5.5.2/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>E:/unity 5.5.2/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="HOTween">
+      <HintPath>Assets/SWS/Scripts/Holoville/HOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:/unity 5.5.2/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\CarSimulator2016\CharacterAnimation\ExportPackage\Scripts\CharacterAnimSelector.cs" />
+    <Compile Include="Assets\CarSimulator2016\CharacterAnimation\ExportPackage\Scripts\CharacterAnimator.cs" />
+    <Compile Include="Assets\CarSimulator2016\Modern City\Model\CameraRotate.cs" />
+    <Compile Include="Assets\CarSimulator2016\Prefabs\Camera\1_MiniMap\_MyScript\Blip.cs" />
+    <Compile Include="Assets\CarSimulator2016\Prefabs\Camera\1_MiniMap\_MyScript\MiniMap.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Camara\CamaraControlScript.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Camara\CamaraSettings.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Camara\CameraRenderingScript.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Camara\CameraTouchMovementControl.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Camara\MapHandler.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Camara\SmooothFollowCamera.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Camara\minimapcamara.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Game\AI_Followrscript.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Game\GAmeplayScript.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Game\GameManagerScript.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\General\FPS_count.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Level\CarSelectionHandler.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Level\LevelButtonhandler.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Level\LevelData.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Level\LevelManagerScript.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Level\LevelSelectionHandler.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Level\LevelUnlockSystem.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Level\StaticVariables.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Object\AI_behaviourCar.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Object\AiFindingCollision.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Object\AnimationHandler.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Object\ArrowMArk.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Object\CarWheelcolliderTrigger.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Object\CheckpointEffect.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Object\Crossline.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Object\PassengerScript.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Object\TrafficSignalController.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Object\TyreRotation.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Object\walkingcharacter.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Plugin\iTween\Sample\MoveSample.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Plugin\iTween\Sample\RotateSample.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Plugin\iTween\Sample\SampleInfo.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Plugin\iTween\iTween.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Sound\AudioListenerCheck.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Sound\AudioManager.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\Sound\SoundManager.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\UI\AchivementHAndlerScript.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\UI\ButtonClickAnimation.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\UI\CarRotationScript.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\UI\LoadingPage.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\UI\MakeTextureAlphaZero.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\UI\MenuHAndler.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\UI\MenuPopupAnimationEffect.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\UI\PopUpAnimationEffects.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\UI\SoundHandler.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\UI\TutorialScript.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\UI\UI_handlerScript.cs" />
+    <Compile Include="Assets\CarSimulator2016\Scripts\UI\pinpongeffects.cs" />
+    <Compile Include="Assets\CarSimulator2016\Water Shader\Scripts\Water.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Example\MNFeaturePreview.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Example\MNUseExample.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Core\MNP.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Core\MNPopup.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Core\MobileNativeDialog.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Core\MobileNativeMessage.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Core\MobileNativeRateUs.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Core\NewRate\NativeRate1.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Enum\MNDialogResult.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Platfroms\AndroidImpl\PopUps\Base\MNAndroidNative.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Platfroms\AndroidImpl\PopUps\Base\MNProxyPool.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Platfroms\AndroidImpl\PopUps\MNAndroidDialog.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Platfroms\AndroidImpl\PopUps\MNAndroidMessage.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Platfroms\AndroidImpl\PopUps\MNAndroidRateUsPopUp.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Platfroms\IOSImpl\PopUps\MNIOSDialog.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Platfroms\IOSImpl\PopUps\MNIOSMessage.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Platfroms\IOSImpl\PopUps\MNIOSRateUsPopUp.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Platfroms\IOSImpl\PopUps\base\MNIOSNative.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Platfroms\WP8Impl\PopUps\MNWP8Dialog.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Platfroms\WP8Impl\PopUps\MNWP8Message.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Platfroms\WP8Impl\PopUps\MNWP8RateUsPopUp.cs" />
+    <Compile Include="Assets\Extensions\MobileNativePopUps\Scripts\Platfroms\WP8Impl\PopUps\base\BaseWP8Popup.cs" />
+    <Compile Include="Assets\Extensions\StansAssetsCommon\FileStaticAPI.cs" />
+    <Compile Include="Assets\Extensions\StansAssetsCommon\SA_DataConverter.cs" />
+    <Compile Include="Assets\Extensions\StansAssetsCommon\SA_IdFactory.cs" />
+    <Compile Include="Assets\Extensions\StansAssetsCommon\SA_ScreenShotMaker.cs" />
+    <Compile Include="Assets\Extensions\StansAssetsCommon\SA_Singleton.cs" />
+    <Compile Include="Assets\Extensions\StansAssetsCommon\WWWTextureLoader.cs" />
+    <Compile Include="Assets\Packs\Swipe\BLACKISH\SwipeControl\Scripts\C#\Example3DObjectCharacter.cs" />
+    <Compile Include="Assets\PlayerPrefsX.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCC_ResetScene.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\Enter-Exit\RCC_EnterExitCar.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\Enter-Exit\RCC_EnterExitPlayer.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_AIBrakeZone.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_AIBrakeZonesContainer.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_AICarController.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_AIWaypointsContainer.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Camera.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_CameraConfig.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_CameraOrbit.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_CarControllerV3.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_CharacterController.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Chassis.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_CreateAudioSource.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_DashboardColors.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_DashboardInputs.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Demo.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Exhaust.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_FixedCamera.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_GetBounds.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_GroundMaterials.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_HoodCamera.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Light.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_LightEmission.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Mirror.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_MobileButtons.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Settings.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_ShadowRotConst.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Skidmarks.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_SuspensionArm.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_TopCamera.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_TruckTrailer.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_UIController.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_UIDashboardButton.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_UIDashboardDisplay.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_UISteeringWheelController.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Useless.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_WheelCamera.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_WheelCollider.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Scripts\TerrainSurface.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AmbientOcclusion\AmbientOcclusion.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AmbientOcclusion\Helpers\PropertyObserver.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AmbientOcclusion\Helpers\Settings.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AntiAliasing\AntiAliasing.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AntiAliasing\FXAA\FXAA.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AntiAliasing\IAntiAliasing.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AntiAliasing\SMAA\SMAA.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\Bloom\Bloom.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\Common\ImageEffectHelper.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\Common\MinAttribute.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\Common\RenderTextureUtility.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\DepthOfField\DepthOfField.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\LensAberrations\LensAberrations.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\MotionBlur\Helpers\FrameBlendingFilter.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\MotionBlur\Helpers\ReconstructionFilter.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\MotionBlur\Helpers\Settings.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\MotionBlur\MotionBlur.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\ScreenSpaceReflection\ScreenSpaceReflection.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\TemporalAntiAliasing\TemporalAntiAliasing.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\TonemappingColorGrading\TonemappingColorGrading.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Cameras\Scripts\AutoCam.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Cameras\Scripts\FreeLookCam.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Cameras\Scripts\HandHeldCam.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Cameras\Scripts\LookatTarget.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Scripts\Explosive.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Scripts\FireLight.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\ActivateTrigger.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\CameraRefocus.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\CurveControlledBob.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\DragRigidbody.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\DynamicShadowSettings.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\EventSystemChecker.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\FPSCounter.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\FollowTarget.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\ForcedReset.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\LerpControlledBob.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\ObjectResetter.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\PlatformSpecificContent.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\SimpleMouseRotator.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\SmoothFollow.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\TimedObjectActivator.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\WaypointCircuit.cs" />
+    <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\Rotator.cs" />
+    <Compile Include="Assets\SWS\Scripts\Manager\PathManager.cs" />
+    <Compile Include="Assets\SWS\Scripts\Manager\WaypointManager.cs" />
+    <Compile Include="Assets\SWS\Scripts\Movement\MessageExample.cs" />
+    <Compile Include="Assets\SWS\Scripts\Movement\RotationHelper.cs" />
+    <Compile Include="Assets\SWS\Scripts\Movement\RuntimeExample.cs" />
+    <Compile Include="Assets\SWS\Scripts\Movement\UserInput.cs" />
+    <Compile Include="Assets\SWS\Scripts\Movement\hoMove.cs" />
+    <Compile Include="Assets\SWS\Scripts\Movement\iMove.cs" />
+    <Compile Include="Assets\SWS\Scripts\PixelPlacement\iTween.cs" />
+    <Compile Include="Assets\sss\SwipeControl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\CarSimulator2016\Scripts\Plugin\iTween\ReadMe!\ReadMe!.txt" />
+    <None Include="Assets\CarSimulator2016\Water Shader\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Effects\effects\ParFX\mod_tex\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\Plugins\StansAssets\Versions\MNP_VersionInfo.txt" />
+    <None Include="Assets\RealisticCarControllerV3\LICENSE - Read Me!.txt" />
+    <None Include="Assets\RealisticCarControllerV3\Scripts\Skidmarks.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AmbientOcclusion\Resources\AmbientOcclusion.cginc" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AmbientOcclusion\Resources\AmbientOcclusion.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AmbientOcclusion\Resources\Common.cginc" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AmbientOcclusion\Resources\Composition.cginc" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AmbientOcclusion\Resources\SeparableBlur.cginc" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AntiAliasing\FXAA\Resources\FXAA.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AntiAliasing\FXAA\Resources\FXAA3.cginc" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AntiAliasing\SMAA\Resources\SMAA.cginc" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\AntiAliasing\SMAA\Resources\SMAA.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\Bloom\Resources\Bloom.cginc" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\Bloom\Resources\Bloom.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\DepthOfField\Resources\BokehSplatting.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\DepthOfField\Resources\DepthOfField.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\DepthOfField\Resources\MedianFilter.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\LensAberrations\Resources\LensAberrations.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\MotionBlur\Resources\Common.cginc" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\MotionBlur\Resources\FrameBlending.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\MotionBlur\Resources\Prefilter.cginc" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\MotionBlur\Resources\Reconstruction.cginc" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\MotionBlur\Resources\Reconstruction.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\ScreenSpaceReflection\Resources\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\ScreenSpaceReflection\Resources\ScreenSpaceReflection.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\TemporalAntiAliasing\Resources\TemporalAntiAliasing.cginc" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\TemporalAntiAliasing\Resources\TemporalAntiAliasing.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\TonemappingColorGrading\Resources\HistogramCompute.compute" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\TonemappingColorGrading\Resources\HistogramRender.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.cginc" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets 1\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\SWS\Scripts\Holoville\HOTween.XML" />
+    <None Include="Assets\SWS\Scripts\Holoville\HOTween_License.txt" />
+    <None Include="Assets\SWS\Scripts\PlayMaker\SWS_PlayMaker_ReadMe.txt" />
+    <None Include="Assets\SWS\Textures\car\Shaders\GlassReflect.shader" />
+    <None Include="Assets\SWS\Textures\car\Shaders\LightsEmmissive.shader" />
+    <None Include="Assets\Skybox\sky5X\README.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

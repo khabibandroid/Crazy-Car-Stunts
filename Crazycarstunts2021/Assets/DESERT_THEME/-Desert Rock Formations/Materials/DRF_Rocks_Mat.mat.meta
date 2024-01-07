@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: eb0810f2d32bc644ab6dda6315d31ae2
+labels:
+- Ground
+- Desert
+- PBR
+- PBS
+- Sand
+- Sandstone
+- Terrain
+- Yellow
+timeCreated: 1426430730
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
