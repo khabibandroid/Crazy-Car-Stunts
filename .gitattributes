@@ -14,3 +14,4 @@ Crazycarstunts2021/Assets/DESERT_THEME/-Desert[[:space:]]Rock[[:space:]]Formatio
 *.ide-wal filter=lfs diff=lfs merge=lfs -text
 *.rtf filter=lfs diff=lfs merge=lfs -text
 *.cubemap filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
