@@ -1,0 +1,8 @@
+# Ignore the Library folder
+Library/
+
+# Ignore .meta files
+*.meta
+
+# Ignore the temp folder
+temp/
