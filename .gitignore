@@ -19,14 +19,13 @@
 *.jpg
 *.tif
 *.pdf
-*.cubemap
-*.rtf
+
+
 
 # Ignore generic 3D model files
-*.fbx
+
 
 # Ignore any file with a .lock extension
-*.lock
 
 
 # Ignore Unity Library folder
